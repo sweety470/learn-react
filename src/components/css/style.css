@@ -1,0 +1,27 @@
+p{
+    color:red;
+    font-size: 1em;
+    text-align: center;
+    border:2px solid blue;
+    opacity: 0.5;
+}
+body{
+    /* background-image: url('bet.png'); */
+    /* background-image: linear-gradient(red,yellow,blue); */
+    background-repeat: no-repeat;
+    border:10px dashed black;
+    padding:25px;
+    background-origin: content-box;
+    background-attachment: fixed;
+    /* background-position-x: center;  */
+    /* background-position-y: center; */
+    /* background-repeat: repeat-y;  set image vertically */
+}
+
+div{
+    background-color:red;
+    height:20em;
+    width:100%;
+    position: relative;
+    animation: mymove;
+}
